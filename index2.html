@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Estamos en mantenimiento</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="theme-color" content="#0C2340" />
+  <style>
+    :root{--bg:#0b1220;--card:#0f1a2c;--accent:#00b3b0;--muted:#a5b4c7}
+    *{box-sizing:border-box} html,body{height:100%}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;color:#e6edf6;
+         background:radial-gradient(1200px 600px at 50% -10%, #1b2740 0%, var(--bg) 50%, #000 100%)}
+    .wrap{min-height:100%;display:grid;place-items:center;padding:24px}
+    .card{width:100%;max-width:760px;background:linear-gradient(180deg,var(--card),#0b1220);
+          border:1px solid #1b2a41;border-radius:22px;padding:30px;box-shadow:0 12px 36px rgba(0,0,0,.35)}
+    .brand{display:flex;gap:14px;align-items:center;margin-bottom:10px;justify-content:center}
+    .brand img{height:120px;display:block}
+    .dot{width:12px;height:12px;background:var(--accent);border-radius:50%;box-shadow:0 0 16px rgba(0,179,176,.85)}
+    h1{margin:4px 0 6px 0;font-size:clamp(22px,4vw,32px);text-align:center}
+    p{margin:8px 0;color:var(--muted);line-height:1.55;text-align:center}
+    .pill{display:inline-block;margin-top:10px;padding:8px 12px;border-radius:999px;background:#0d1728;border:1px solid #1b2a41;color:#cfd8e3}
+    footer{margin-top:18px;color:#9aa7bd;font-size:13px;text-align:center}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <main class="card" role="main" aria-labelledby="ttl">
+      <div class="brand">
+        <span class="dot" aria-hidden="true"></span>
+        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIyLjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC..." 
+             alt="Quálitas Perú" loading="lazy">
+      </div>
+
+      <h1 id="ttl">Estamos realizando mantenimiento</h1>
+      <p>En este momento nuestro sitio se encuentra temporalmente fuera de servicio por trabajos programados de mantenimiento.</p>
+      <p class="pill">15 de agosto, de 00:00 a 05:00 (hora de Lima, Perú)</p>
+      <p>Te invitamos a visitarnos nuevamente luego de este horario. ¡Gracias por tu comprensión!</p>
+
+      <footer>© Quálitas Perú</footer>
+    </main>
+  </div>
+</body>
+</html>
